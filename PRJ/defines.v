@@ -18,7 +18,7 @@
 
 //============具体指令相关宏定义==================//
 `define EXE_ORI                     6'b001101
-`defien EXE_NOP                     6'b000000
+`define EXE_NOP                     6'b000000
 
 `define EXE_OR_OP                   8'b00100101
 `define EXE_NOP_OP                  8'b00000000
