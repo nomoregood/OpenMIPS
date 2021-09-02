@@ -28,7 +28,7 @@ reg [`RegBus]   regs[0:`RegNum-1];
         end
     end
 
-//读操作，组合逻辑，一旦改变地址就会给出对应的值，保证在译码阶段取得要读取的reg值
+//读操作，组合逻辑，一旦改变地址就会给出对应的值，保证在译码阶段取得要读取的值
     always @(*) begin
         if (rst == `RstEnable) begin
             rdata1 <= `ZeroWord;
